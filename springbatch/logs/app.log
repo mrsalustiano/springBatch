@@ -1,0 +1,14 @@
+2023-03-09 04:07:16,766 INFO c.a.s.SpringbatchApplication [main] Starting SpringbatchApplication using Java 11.0.12 on CPX-STP0Y051M2Z with PID 18020 (C:\DEV\ws-sts\springbatch\target\classes started by m.salustiano.silva in C:\DEV\ws-sts\springbatch)
+2023-03-09 04:07:16,769 INFO c.a.s.SpringbatchApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-03-09 04:07:17,202 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2023-03-09 04:07:17,365 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-03-09 04:07:17,685 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-03-09 04:07:17,829 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2023-03-09 04:07:17,995 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2023-03-09 04:07:18,067 INFO c.a.s.SpringbatchApplication [main] Started SpringbatchApplication in 1.731 seconds (JVM running for 2.509)
+2023-03-09 04:07:18,241 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeTexto]] launched with the following parameters: [{run.id=15, nome=Flamerda Eterno Vice}]
+2023-03-09 04:07:18,344 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeTextoStep]
+2023-03-09 04:07:18,456 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeTextoStep] executed in 112ms
+2023-03-09 04:07:18,506 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeTexto]] completed with the following parameters: [{run.id=15, nome=Flamerda Eterno Vice}] and the following status: [COMPLETED] in 218ms
+2023-03-09 04:07:18,511 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-03-09 04:07:18,518 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
