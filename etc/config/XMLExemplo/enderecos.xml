@@ -1,0 +1,196 @@
+<xmlcep>
+    <enderecos>
+        <endereco>
+            <cep>91420-270</cep>
+            <logradouro>Rua São Domingos</logradouro>
+            <complemento/>
+            <bairro>Bom Jesus</bairro>
+            <localidade>Porto Alegre</localidade>
+            <uf>RS</uf>
+            <ibge>4314902</ibge>
+            <gia/>
+            <ddd>51</ddd>
+            <siafi>8801</siafi>
+        </endereco>
+        <endereco>
+            <cep>91040-000</cep>
+            <logradouro>Rua Domingos Rubbo</logradouro>
+            <complemento/>
+            <bairro>Cristo Redentor</bairro>
+            <localidade>Porto Alegre</localidade>
+            <uf>RS</uf>
+            <ibge>4314902</ibge>
+            <gia/>
+            <ddd>51</ddd>
+            <siafi>8801</siafi>
+        </endereco>
+        <endereco>
+            <cep>91040-320</cep>
+            <logradouro>Rua Domingos Martins</logradouro>
+            <complemento/>
+            <bairro>Cristo Redentor</bairro>
+            <localidade>Porto Alegre</localidade>
+            <uf>RS</uf>
+            <ibge>4314902</ibge>
+            <gia/>
+            <ddd>51</ddd>
+            <siafi>8801</siafi>
+        </endereco>
+        <endereco>
+            <cep>91910-450</cep>
+            <logradouro>Rua Domingos da Silva</logradouro>
+            <complemento/>
+            <bairro>Camaquã</bairro>
+            <localidade>Porto Alegre</localidade>
+            <uf>RS</uf>
+            <ibge>4314902</ibge>
+            <gia/>
+            <ddd>51</ddd>
+            <siafi>8801</siafi>
+        </endereco>
+        <endereco>
+            <cep>91120-090</cep>
+            <logradouro>Rua Domingos de Abreu</logradouro>
+            <complemento/>
+            <bairro>Sarandi</bairro>
+            <localidade>Porto Alegre</localidade>
+            <uf>RS</uf>
+            <ibge>4314902</ibge>
+            <gia/>
+            <ddd>51</ddd>
+            <siafi>8801</siafi>
+        </endereco>
+        <endereco>
+            <cep>91360-040</cep>
+            <logradouro>Rua Domingos Seguézio</logradouro>
+            <complemento/>
+            <bairro>Vila Ipiranga</bairro>
+            <localidade>Porto Alegre</localidade>
+            <uf>RS</uf>
+            <ibge>4314902</ibge>
+            <gia/>
+            <ddd>51</ddd>
+            <siafi>8801</siafi>
+        </endereco>
+        <endereco>
+            <cep>91790-072</cep>
+            <logradouro>Rua Domingos José Poli</logradouro>
+            <complemento/>
+            <bairro>Restinga</bairro>
+            <localidade>Porto Alegre</localidade>
+            <uf>RS</uf>
+            <ibge>4314902</ibge>
+            <gia/>
+            <ddd>51</ddd>
+            <siafi>8801</siafi>
+        </endereco>
+        <endereco>
+            <cep>91160-080</cep>
+            <logradouro>Rua Luiz Domingos Ramos</logradouro>
+            <complemento/>
+            <bairro>Santa Rosa de Lima</bairro>
+            <localidade>Porto Alegre</localidade>
+            <uf>RS</uf>
+            <ibge>4314902</ibge>
+            <gia/>
+            <ddd>51</ddd>
+            <siafi>8801</siafi>
+        </endereco>
+        <endereco>
+            <cep>90650-090</cep>
+            <logradouro>Rua Domingos Crescêncio</logradouro>
+            <complemento/>
+            <bairro>Santana</bairro>
+            <localidade>Porto Alegre</localidade>
+            <uf>RS</uf>
+            <ibge>4314902</ibge>
+            <gia/>
+            <ddd>51</ddd>
+            <siafi>8801</siafi>
+        </endereco>
+        <endereco>
+            <cep>91910-420</cep>
+            <logradouro>Rua José Domingos Varella</logradouro>
+            <complemento/>
+            <bairro>Cavalhada</bairro>
+            <localidade>Porto Alegre</localidade>
+            <uf>RS</uf>
+            <ibge>4314902</ibge>
+            <gia/>
+            <ddd>51</ddd>
+            <siafi>8801</siafi>
+        </endereco>
+        <endereco>
+            <cep>91120-480</cep>
+            <logradouro>Rua Domingos Antônio Santoro</logradouro>
+            <complemento/>
+            <bairro>Sarandi</bairro>
+            <localidade>Porto Alegre</localidade>
+            <uf>RS</uf>
+            <ibge>4314902</ibge>
+            <gia/>
+            <ddd>51</ddd>
+            <siafi>8801</siafi>
+        </endereco>
+        <endereco>
+            <cep>91790-101</cep>
+            <logradouro>Rua Domingos Manoel Mincarone</logradouro>
+            <complemento/>
+            <bairro>Restinga</bairro>
+            <localidade>Porto Alegre</localidade>
+            <uf>RS</uf>
+            <ibge>4314902</ibge>
+            <gia/>
+            <ddd>51</ddd>
+            <siafi>8801</siafi>
+        </endereco>
+        <endereco>
+            <cep>90420-200</cep>
+            <logradouro>Rua Domingos José de Almeida</logradouro>
+            <complemento/>
+            <bairro>Rio Branco</bairro>
+            <localidade>Porto Alegre</localidade>
+            <uf>RS</uf>
+            <ibge>4314902</ibge>
+            <gia/>
+            <ddd>51</ddd>
+            <siafi>8801</siafi>
+        </endereco>
+        <endereco>
+            <cep>91261-304</cep>
+            <logradouro>Rua Domingos Mullet Rodrigues</logradouro>
+            <complemento/>
+            <bairro>Mário Quintana</bairro>
+            <localidade>Porto Alegre</localidade>
+            <uf>RS</uf>
+            <ibge>4314902</ibge>
+            <gia/>
+            <ddd>51</ddd>
+            <siafi>8801</siafi>
+        </endereco>
+        <endereco>
+            <cep>91540-650</cep>
+            <logradouro>Acesso Olavo Domingos de Oliveira</logradouro>
+            <complemento/>
+            <bairro>Jardim Carvalho</bairro>
+            <localidade>Porto Alegre</localidade>
+            <uf>RS</uf>
+            <ibge>4314902</ibge>
+            <gia/>
+            <ddd>51</ddd>
+            <siafi>8801</siafi>
+        </endereco>
+        <endereco>
+            <cep>91740-650</cep>
+            <logradouro>Praça Domingos Fernandes de Souza</logradouro>
+            <complemento/>
+            <bairro>Cavalhada</bairro>
+            <localidade>Porto Alegre</localidade>
+            <uf>RS</uf>
+            <ibge>4314902</ibge>
+            <gia/>
+            <ddd>51</ddd>
+            <siafi>8801</siafi>
+        </endereco>
+    </enderecos>
+</xmlcep>
