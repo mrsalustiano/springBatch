@@ -16,8 +16,8 @@ public class LeituraArquivoDelimitadoReaderConfig {
 	@StepScope
 	@Bean
 	public FlatFileItemReader<Cliente> leituraArquivoDelimitadoReader(
-			@Value("#{jobParameters['arquivoClientes']}") Resource arquivoClientes
-			) {
+			@Value("#{jobParameters['arquivoClientes']}") 
+			Resource arquivoClientes) {
 		
 		return new FlatFileItemReaderBuilder<Cliente>()
 				.name("leituraArquivoDelimitadoReader")
