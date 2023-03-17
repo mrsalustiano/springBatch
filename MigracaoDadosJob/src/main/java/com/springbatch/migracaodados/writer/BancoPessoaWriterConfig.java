@@ -17,25 +17,17 @@ import com.springbatch.migracaodados.dominio.Pessoa;
 
 @Configuration
 public class BancoPessoaWriterConfig {
-
-	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@Bean
 	public JdbcBatchItemWriter<Pessoa> bancoPessoaWriter(
-			@Qualifier("appDataSource") DataSource dataSource
-			){
-		
-		return new JdbcBatchItemWriterBuilder()
+			@Qualifier("appDataSource") DataSource dataSource) {
+		return new JdbcBatchItemWriterBuilder<Pessoa>()
 				.dataSource(dataSource)
-				.sql("INSERT INTO pessoa (id, nome, email, data_nascimento, idade) "
-						+ "VALUES (? , ?, ? , ? , ?)")
+				.sql("INSERT INTO pessoa (id, nome, email, data_nascimento, idade) VALUES (?, ?, ?, ?, ?)")
 				.itemPreparedStatementSetter(itemPreparedStatementSetter())
 				.build();
-				
-		
 	}
 
 	private ItemPreparedStatementSetter<Pessoa> itemPreparedStatementSetter() {
-
 		return new ItemPreparedStatementSetter<Pessoa>() {
 
 			@Override
@@ -45,9 +37,10 @@ public class BancoPessoaWriterConfig {
 				ps.setString(3, pessoa.getEmail());
 				ps.setDate(4, new Date(pessoa.getDataNascimento().getTime()));
 				ps.setInt(5, pessoa.getIdade());
-				
 			}
 			
 		};
 	}
+	
+
 }

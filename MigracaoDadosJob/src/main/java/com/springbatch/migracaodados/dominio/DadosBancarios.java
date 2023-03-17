@@ -2,73 +2,40 @@ package com.springbatch.migracaodados.dominio;
 
 public class DadosBancarios {
 	
-	private Integer id;
-	private Integer pessoaId;
-	private Integer agencia;
-	private Integer conta;
-	private Integer banco;
-	
-	public DadosBancarios() {
-		super();
-
-	}
-
-	public DadosBancarios(Integer id, Integer pessoaId, Integer agencia, Integer conta, Integer banco) {
-		super();
-		this.id = id;
-		this.pessoaId = pessoaId;
-		this.agencia = agencia;
-		this.conta = conta;
-		this.banco = banco;
-	}
-
-	public Integer getId() {
+	private int id;
+	private int pessoaId;
+	private int agencia;
+	private int conta;
+	private int banco;
+	public int getId() {
 		return id;
 	}
-
-	public void setId(Integer id) {
+	public void setId(int id) {
 		this.id = id;
 	}
-
-	public Integer getPessoaId() {
+	public int getPessoaId() {
 		return pessoaId;
 	}
-
-	public void setPessoaId(Integer pessoaId) {
+	public void setPessoaId(int pessoaId) {
 		this.pessoaId = pessoaId;
 	}
-
-	public Integer getAgencia() {
+	public int getAgencia() {
 		return agencia;
 	}
-
-	public void setAgencia(Integer agencia) {
+	public void setAgencia(int agencia) {
 		this.agencia = agencia;
 	}
-
-	public Integer getConta() {
+	public int getConta() {
 		return conta;
 	}
-
-	public void setConta(Integer conta) {
+	public void setConta(int conta) {
 		this.conta = conta;
 	}
-
-	public Integer getBanco() {
+	public int getBanco() {
 		return banco;
 	}
-
-	public void setBanco(Integer banco) {
+	public void setBanco(int banco) {
 		this.banco = banco;
 	}
-
-	@Override
-	public String toString() {
-		return "DadosBancarios [id=" + id + ", pessoaId=" + pessoaId + ", agencia=" + agencia + ", conta=" + conta
-				+ ", banco=" + banco + "]";
-	}
-	
-	
-	
 
 }

@@ -2,37 +2,19 @@ package com.springbatch.migracaodados.dominio;
 
 import java.util.Date;
 
+import org.apache.logging.log4j.util.Strings;
+
 public class Pessoa {
 	
-
-	private Integer id;
+	private int id;
 	private String nome;
 	private String email;
 	private Date dataNascimento;
-	private Integer idade;
-	
-
-	public Pessoa() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-	
-	
-		public Pessoa(Integer id, String nome, String email, Date dataNascimento, Integer idade) {
-		super();
-		this.id = id;
-		this.nome = nome;
-		this.email = email;
-		this.dataNascimento = dataNascimento;
-		this.idade = idade;
-	}
-
-
-
-	public Integer getId() {
+	private int idade;
+	public int getId() {
 		return id;
 	}
-	public void setId(Integer id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 	public String getNome() {
@@ -53,20 +35,15 @@ public class Pessoa {
 	public void setDataNascimento(Date dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
-	public Integer getIdade() {
+	public int getIdade() {
 		return idade;
 	}
-	public void setIdade(Integer idade) {
+	public void setIdade(int idade) {
 		this.idade = idade;
 	}
-	
-	
-	@Override
-	public String toString() {
-		return "Pessoa [id=" + id + ", nome=" + nome + ", email=" + email + ", dataNascimento=" + dataNascimento
-				+ ", idade=" + idade + "]";
+	public boolean isValida() {
+		return !Strings.isBlank(nome) && !Strings.isBlank(email) && dataNascimento != null;
 	}
-
 	
 	
 }

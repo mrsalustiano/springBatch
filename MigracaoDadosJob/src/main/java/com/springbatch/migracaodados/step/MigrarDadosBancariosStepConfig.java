@@ -12,24 +12,18 @@ import com.springbatch.migracaodados.dominio.DadosBancarios;
 
 @Configuration
 public class MigrarDadosBancariosStepConfig {
-	
-
 	@Autowired
-	private StepBuilderFactory sbFactory;
+	private StepBuilderFactory stepBuilderFactory;
 	
 	@Bean
 	public Step migrarDadosBancariosStep(
 			ItemReader<DadosBancarios> arquivoDadosBancariosReader,
-			ItemWriter<DadosBancarios> bancoDadosBancariosWriter
-			
-			) {
-		
-		return sbFactory
+			ItemWriter<DadosBancarios> bancoDadosBancariosWriter) {
+		return stepBuilderFactory
 				.get("migrarDadosBancariosStep")
-				.<DadosBancarios, DadosBancarios>chunk(10)
+				.<DadosBancarios, DadosBancarios>chunk(10000)
 				.reader(arquivoDadosBancariosReader)
 				.writer(bancoDadosBancariosWriter)
 				.build();
-		
 	}
 }
